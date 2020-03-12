@@ -1,0 +1,30 @@
+<div id="main" class="call-out">
+  <ul>
+    {% if site.data.social.instagram or site.theme_settings.instagram %}
+    <li>
+      <a href="http://instagram.com/{{ site.data.social.instagram }}">Instagram</a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social.facebook or site.theme_settings.facebook %}
+    <li>
+      <a href="https://www.facebook.com/{{ site.data.social.facebook }}">Facebook</a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social.email_address or site.theme_settings.email_address %}
+    <li>
+      <a href="mailto:{{ site.data.social.email_address }}" title="{{ site.data.language.str_email }}">
+        {{ site.data.social.email_address }}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social.phone or site.theme_settings.phone %}
+    <li>
+      <a href="https://wa.me/{{ site.data.social.phone }}">0{{ site.data.social.phone }} (Click to WA)</a>
+    </li>
+    {% endif %}
+
+  </ul>
+</div>

@@ -1,0 +1,39 @@
+# Icons on the footer
+rss: false
+email_address:  milistudio.konsultan@gmail.com # Full email address, e.g. "sam@example.com"
+behance:
+bitbucket:
+dribbble:
+facebook: facebook #facebook username / id
+flickr:
+gitlab:
+github:
+instagram: milistudio.konsultan
+keybase:
+linkedin:  # Full URL
+pinterest:
+reddit:
+soundcloud:
+stack_overflow:
+stack_exchange:   # Full URL
+steam:
+tumblr:
+twitter:          # "twitter username"
+vimeo:
+wordpress:
+youtube:          # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
+
+# Phone
+phone: "81345678910" # Without 0 in front number
+
+# Share button options
+share:
+  facebook: true
+  twitter: true
+  tumblr:
+  pinterest:
+  pocket:
+  reddit:
+  linkedin:
+  wordpress:
+  email: true
